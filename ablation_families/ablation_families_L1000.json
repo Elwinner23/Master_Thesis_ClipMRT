@@ -1,0 +1,113 @@
+{
+  "L": 1000,
+  "S": 6,
+  "bits": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "total_bits": 24,
+  "K": 100,
+  "families": {
+    "A": {
+      "L": 1000,
+      "strides": [
+        1,
+        4,
+        15,
+        43,
+        149,
+        593
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 24,
+      "b_ref": 20,
+      "final_score": 0.75084,
+      "quality_score": 0.901009,
+      "bit_factor": 0.833333,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.802565,
+      "f4_consistency": 0.78395,
+      "nsd_avg": 0.108025,
+      "coverage_ok": true,
+      "coprime": true,
+      "family": "A"
+    },
+    "B": {
+      "L": 1000,
+      "strides": [
+        1,
+        4,
+        16,
+        64,
+        256,
+        1024
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 24,
+      "b_ref": 20,
+      "final_score": 0.71953,
+      "quality_score": 0.863436,
+      "bit_factor": 0.833333,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.685868,
+      "f4_consistency": 0.785063,
+      "nsd_avg": 0.107468,
+      "coverage_ok": true,
+      "coprime": false,
+      "family": "B"
+    },
+    "C": {
+      "L": 1000,
+      "strides": [
+        1,
+        4,
+        14,
+        52,
+        153,
+        581
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 24,
+      "b_ref": 20,
+      "final_score": 0.763835,
+      "quality_score": 0.916602,
+      "bit_factor": 0.833333,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.850397,
+      "f4_consistency": 0.789879,
+      "nsd_avg": 0.10506,
+      "coverage_ok": true,
+      "coprime": false,
+      "family": "C"
+    }
+  },
+  "best_family": "C"
+}

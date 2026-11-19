@@ -1,0 +1,44 @@
+_base_:
+- ../dataset/solar.yml
+_custom_imports_:
+- SeqSNN.network
+- SeqSNN.dataset
+- SeqSNN.runner
+
+data:
+  raw_label: False
+  window: 168
+  horizon: 24
+  normalize: 1
+
+runner:
+  type: ts
+  task: regression
+  optimizer: Adam
+  lr: 0.001
+  weight_decay: 0.0
+  loss_fn: mse
+  metrics: [r2, rse]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 1000
+  early_stop: 30
+  batch_size: 64
+  aggregate: True
+
+network:
+  type: SpikformerCoMRT
+  dim: 256
+  d_ff: 1024
+  depths: 2
+  num_steps: 4
+  heads: 8
+  max_length: 168
+  pe_mode: concat
+  strides: [33, 42, 167, 224, 405]
+  bits: [2, 4, 3, 2, 4]
+  # diagnostic_score: 0.4999  (target: 0.5)
+
+runtime:
+  seed: 39
+  output_dir: outputs/design_points/solar/score0p5

@@ -1,0 +1,38 @@
+{
+  "0.8": {
+    "L": 168,
+    "strides": [1, 3, 14, 28, 56],
+    "bits": [3, 5, 2, 2, 3],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.822744,
+    "quality_score": 0.822744,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.628437,
+    "f4_consistency": 0.686376,
+    "nsd_avg": 0.156812,
+    "coverage_ok": true,
+    "coprime": false,
+    "regime": "min"
+  },
+  "0.9": {
+    "L": 168,
+    "strides": [1, 4, 12, 36, 93],
+    "bits": [4, 3, 3, 3, 2],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.896458,
+    "quality_score": 0.896458,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.817118,
+    "f4_consistency": 0.742143,
+    "nsd_avg": 0.128929,
+    "coverage_ok": true,
+    "coprime": false,
+    "regime": "max"
+  }
+}

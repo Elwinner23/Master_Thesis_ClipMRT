@@ -1,0 +1,47 @@
+_base_:
+- ../dataset/electricity.yml
+_custom_imports_:
+- SeqSNN.network
+- SeqSNN.dataset
+- SeqSNN.runner
+
+data:
+  raw_label: False
+  window: 168
+  horizon: 24
+  normalize: 3
+
+runner:
+  type: ts
+  task: regression
+  optimizer: Adam
+  lr: 0.001
+  weight_decay: 0.0
+  loss_fn: mse
+  metrics: [r2, rse]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 1000
+  early_stop: 30
+  batch_size: 16
+  aggregate: True
+
+network:
+  type: SpikformerCoMRT
+  dim: 256
+  d_ff: 1024
+  depths: 2
+  num_steps: 4
+  heads: 8
+  max_length: 168
+  # pe_mode: concat — CoMRT bits appended then projected to dim
+  # pe_mode: add    — CoMRT bits projected to dim and added
+  pe_mode: concat
+  # Leave strides/bits unset to trigger auto-tuning at startup.
+  # Or pin a specific configuration, e.g.:
+  #   strides: [1, 4, 7, 23]
+  #   bits:    [5, 5, 5, 5]
+
+runtime:
+  seed: 39
+  output_dir: ./outputs/comrt_concat_seed39_SpikformerCoMRT_horizon=24_electricity

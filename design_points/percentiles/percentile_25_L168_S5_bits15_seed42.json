@@ -1,0 +1,32 @@
+{
+  "0.25": {
+    "L": 168,
+    "strides": [
+      1,
+      3,
+      6,
+      15,
+      57
+    ],
+    "bits": [
+      3,
+      2,
+      3,
+      4,
+      3
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.842067,
+    "quality_score": 0.842067,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.669333,
+    "f4_consistency": 0.709484,
+    "nsd_avg": 0.145258,
+    "coverage_ok": true,
+    "coprime": false,
+    "regime": "p25"
+  }
+}

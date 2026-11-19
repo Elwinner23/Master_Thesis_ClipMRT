@@ -1,0 +1,106 @@
+{
+  "L": 256,
+  "S": 5,
+  "bits": [
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "total_bits": 20,
+  "K": 100,
+  "families": {
+    "A": {
+      "L": 256,
+      "strides": [
+        1,
+        4,
+        11,
+        41,
+        163
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 20,
+      "b_ref": 17,
+      "final_score": 0.763399,
+      "quality_score": 0.898116,
+      "bit_factor": 0.85,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.815858,
+      "f4_consistency": 0.751461,
+      "nsd_avg": 0.12427,
+      "coverage_ok": true,
+      "coprime": true,
+      "family": "A"
+    },
+    "B": {
+      "L": 256,
+      "strides": [
+        1,
+        4,
+        16,
+        64,
+        256
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 20,
+      "b_ref": 17,
+      "final_score": 0.717447,
+      "quality_score": 0.844055,
+      "bit_factor": 0.85,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.658245,
+      "f4_consistency": 0.736984,
+      "nsd_avg": 0.131508,
+      "coverage_ok": true,
+      "coprime": false,
+      "family": "B"
+    },
+    "C": {
+      "L": 256,
+      "strides": [
+        1,
+        4,
+        14,
+        40,
+        146
+      ],
+      "bits": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_bits": 20,
+      "b_ref": 17,
+      "final_score": 0.775188,
+      "quality_score": 0.911986,
+      "bit_factor": 0.85,
+      "f1_monotonicity": 1.0,
+      "f2_tail_resolution": 1.0,
+      "f3_local_resolution": 0.864993,
+      "f4_consistency": 0.748886,
+      "nsd_avg": 0.125557,
+      "coverage_ok": true,
+      "coprime": false,
+      "family": "C"
+    }
+  },
+  "best_family": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "0.88": {
+    "L": 168,
+    "strides": [
+      1,
+      3,
+      9,
+      27,
+      101
+    ],
+    "bits": [
+      3,
+      3,
+      3,
+      4,
+      2
+    ],
+    "final_score_v2": 0.887629,
+    "final_score": 0.887629,
+    "coprime": false,
+    "regime": "min"
+  }
+}

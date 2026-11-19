@@ -1,0 +1,47 @@
+{
+  "min": {
+    "strides": [
+      2,
+      3
+    ],
+    "bits": [
+      4,
+      4
+    ],
+    "final_score_v2": 0.0,
+    "final_score": 0.0,
+    "coprime": true
+  },
+  "median": {
+    "strides": [
+      4,
+      9,
+      11
+    ],
+    "bits": [
+      3,
+      2,
+      3
+    ],
+    "final_score_v2": 0.673773,
+    "final_score": 0.673773,
+    "coprime": true
+  },
+  "max": {
+    "strides": [
+      2,
+      7,
+      9,
+      11
+    ],
+    "bits": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "final_score_v2": 0.913727,
+    "final_score": 0.913728,
+    "coprime": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "0.1": {
+    "L": 168,
+    "strides": [
+      27,
+      34,
+      41,
+      113,
+      237
+    ],
+    "bits": [
+      3,
+      2,
+      3,
+      3,
+      4
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.0,
+    "quality_score": 0.0,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 0.453828,
+    "f3_local_resolution": 0.0,
+    "f4_consistency": 0.769916,
+    "nsd_avg": 0.115042,
+    "coverage_ok": true,
+    "coprime": false,
+    "target_score": 0.1
+  },
+  "0.3": {
+    "L": 168,
+    "strides": [
+      36,
+      40,
+      57,
+      167,
+      655
+    ],
+    "bits": [
+      2,
+      3,
+      4,
+      4,
+      2
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.380311,
+    "quality_score": 0.380311,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 0.797455,
+    "f3_local_resolution": 0.045462,
+    "f4_consistency": 0.795942,
+    "nsd_avg": 0.102029,
+    "coverage_ok": true,
+    "coprime": false,
+    "target_score": 0.3
+  },
+  "0.5": {
+    "L": 168,
+    "strides": [
+      33,
+      42,
+      167,
+      224,
+      405
+    ],
+    "bits": [
+      2,
+      4,
+      3,
+      2,
+      4
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.499881,
+    "quality_score": 0.499881,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.092762,
+    "f4_consistency": 0.78111,
+    "nsd_avg": 0.109445,
+    "coverage_ok": true,
+    "coprime": false,
+    "target_score": 0.5
+  },
+  "0.8": {
+    "L": 168,
+    "strides": [
+      13,
+      14,
+      17,
+      19,
+      24
+    ],
+    "bits": [
+      3,
+      5,
+      2,
+      2,
+      3
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.799978,
+    "quality_score": 0.799978,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.684382,
+    "f4_consistency": 0.517585,
+    "nsd_avg": 0.241208,
+    "coverage_ok": false,
+    "coprime": false,
+    "target_score": 0.8
+  },
+  "0.9": {
+    "L": 168,
+    "strides": [
+      4,
+      5,
+      8,
+      22,
+      59
+    ],
+    "bits": [
+      2,
+      2,
+      3,
+      4,
+      4
+    ],
+    "total_bits": 15,
+    "b_ref": 15,
+    "final_score": 0.900024,
+    "quality_score": 0.900024,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 1.0,
+    "f3_local_resolution": 0.858001,
+    "f4_consistency": 0.704963,
+    "nsd_avg": 0.147519,
+    "coverage_ok": true,
+    "coprime": false,
+    "target_score": 0.9
+  }
+}

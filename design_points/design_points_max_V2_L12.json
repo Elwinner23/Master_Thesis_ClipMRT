@@ -1,0 +1,22 @@
+{
+     "0.91": {
+ "L": 12,
+     "strides": [
+      2,
+      7,
+      9,
+      11
+    ],
+    "bits": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "total_bits": 8,
+    "b_ref": 8,
+    "final_score": 913727,
+    "coprime": true,
+    "regime": "max"
+  }
+}

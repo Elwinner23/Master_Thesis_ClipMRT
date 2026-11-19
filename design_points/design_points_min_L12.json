@@ -1,0 +1,28 @@
+{
+  "0.7": {
+    "L": 12,
+        "strides": [
+      1,
+      3,
+      6
+    ],
+    "bits": [
+      3,
+      2,
+      3
+    ],
+    "total_bits": 8,
+    "b_ref": 8,
+    "final_score": 0.693719,
+    "quality_score": 0.693719,
+    "bit_factor": 1.0,
+    "f1_monotonicity": 1.0,
+    "f2_tail_resolution": 0.971667,
+    "f3_local_resolution": 0.540984,
+    "f4_consistency": 0.498921,
+    "nsd_avg": 0.25054,
+    "coverage_ok": true,
+    "coprime": false,
+    "regime": "min"
+  }
+}

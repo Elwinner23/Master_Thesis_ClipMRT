@@ -1,0 +1,24 @@
+{
+  "L": 12,
+  "strides": [
+    1,
+    2
+  ],
+  "bits": [
+    2,
+    6
+  ],
+  "total_bits": 8,
+  "b_ref": 8,
+  "final_score": 0.869653,
+  "quality_score": 0.869653,
+  "bit_factor": 1.0,
+  "f1_monotonicity": 1.0,
+  "f2_tail_resolution": 1.0,
+  "f3_local_resolution": 0.799999,
+  "f4_consistency": 0.745458,
+  "nsd_avg": 0.127271,
+  "quality_score_v2": 0.869653,
+  "final_score_v2": 0.869653,
+  "coverage_ok": true
+}
